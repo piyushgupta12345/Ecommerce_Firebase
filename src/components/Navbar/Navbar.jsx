@@ -13,9 +13,8 @@ function Navbar() {
   const context = useContext(mycontext)
   const {mode, toggleMode} = context;
 
-
   return (
-    <div>
+    <div className="bg-white sticky top-0 z-50">
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
