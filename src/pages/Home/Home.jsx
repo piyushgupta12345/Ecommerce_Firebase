@@ -4,6 +4,7 @@ import HeroSection from '../../components/HeroSection/HeroSection'
 import Filter from '../../components/Filter/Filter'
 import ProductCard from '../../components/ProductCard/ProductCard'
 import Track from '../../components/Track/Track'
+import Testimonial from '../../components/Testimonial/Testimonial'
 
 function Home() {
 
@@ -13,6 +14,7 @@ function Home() {
       <Filter/>
       <ProductCard/>
       <Track/>
+      <Testimonial/>
     </Layout>
   )
 }
