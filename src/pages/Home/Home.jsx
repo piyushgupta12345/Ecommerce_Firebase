@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../../components/Layout/Layout'
 import HeroSection from '../../components/HeroSection/HeroSection'
 import Filter from '../../components/Filter/Filter'
+import ProductCard from '../../components/ProductCard/ProductCard'
+import Track from '../../components/Track/Track'
 
 function Home() {
 
@@ -9,6 +11,8 @@ function Home() {
     <Layout>
       <HeroSection/>
       <Filter/>
+      <ProductCard/>
+      <Track/>
     </Layout>
   )
 }
